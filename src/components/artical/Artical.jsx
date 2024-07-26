@@ -1,12 +1,12 @@
-import React from 'react';
+import React from 'react'
 import './artical.css'
 
 const Article = ({ imgUrl, date, text }) => (
-  <div className="blog-container_article">
-    <div className="blog-container_article-image">
-      <img src={imgUrl} alt="blog_image" />
+  <div className='hotel-container_article'>
+    <div className='hotel-container_article-image'>
+      <img src={imgUrl} alt='hotel_image' />
     </div>
-    <div className="blog-container_article-content">
+    <div className='hotel-container_article-content'>
       <div>
         <p>{date}</p>
         <h3>{text}</h3>
@@ -14,6 +14,6 @@ const Article = ({ imgUrl, date, text }) => (
       <p>Read Full Article</p>
     </div>
   </div>
-);
+)
 
-export default Article;
+export default Article
